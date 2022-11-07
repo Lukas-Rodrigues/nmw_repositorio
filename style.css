@@ -9,13 +9,13 @@
      --card-bg-color: #1d1c19;
      --bg: url(./assets/bg-yellow.svg);
 }
-body.blue{
+.blue{
     --card-color-primary:#338af3;
     --card-title-color-boder: #338af3;
     --card-bg-color: #202024;
     --bg: url(./assets/bg-blue.svg);
 }
-body.green{
+.green{
     --card-color-primary:#047c3f;
     --card-title-color-boder: #047c3f;
     --card-bg-color: #1a1f1b;
@@ -28,10 +28,10 @@ ul{
         list-style: none;
 }
 body{
-    background: #121214;
+    background-color: #121214;
     background-image: var(--bg);
     background-position-x: center;
-    background-position-y: -715px;
+    background-position-y: 715px;
 }
 body * {
         font-family: 'Roboto', sans-serif;
